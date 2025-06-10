@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static Elementizer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Static Elementizer</h1>
+    </div>
+    <div id="sites-list"></div>
+    <div class="add-new-rule">
+        <h2>Add New Rule</h2>
+        <input type="text" id="new-site-hostname" placeholder="Website (e.g., www.example.com)">
+        <input type="text" id="new-rule-name" placeholder="Element Name (e.g., Header Logo)">
+        <input type="text" id="new-rule-selector" placeholder="CSS Selector (e.g., #logo)">
+        <button id="add-rule-btn">Add Rule</button>
+        <p class="picker-info">For the selector, right-click an element on a page -> Inspect -> right-click the HTML -> Copy -> Copy selector.</p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
