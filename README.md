@@ -1,4 +1,4 @@
-# static-elementizer
+# oled-static-element-remover
 A Chromium extension to auto hide static page elements for OLED panels
 
 ![SrsLhHhedg](https://github.com/user-attachments/assets/de086eaa-7cb0-4f3a-9374-b1fac5b147b3)
